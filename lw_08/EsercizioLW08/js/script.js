@@ -33,26 +33,26 @@ const genParagEl = () => {
   return descriptionEl;
 };
 
-// const wrapperEl = () => {
-//   const containerEl = document.createElement("div");
-//   const titleEl = document.createElement("h1");
-//   const imgEl = document.createElement("img");
-//   const descriptionEl = document.createElement("p");
+const wrapperEl = () => {
+  const containerEl = document.createElement("div");
+  const titleEl = document.createElement("h1");
+  const imgEl = document.createElement("img");
+  const descriptionEl = document.createElement("p");
 
-//   containerEl.className = "box---products";
-//   titleEl.className = "product---titolo";
-//   titleEl.textcontent = "Prodotto";
-//   imgEl.className = "product---image";
-//   imgEl.src = "https://fakestoreapi.com/products/";
-//   imgEl.alt = "";
-//   descriptionEl.className = "product---description";
-//   descriptionEl.textContent = "";
+  containerEl.className = "box---products";
+  titleEl.className = "product---titolo";
+  titleEl.textContent = "Prodotto";
+  imgEl.className = "product---image";
+  imgEl.src = "https://fakestoreapi.com/products/";
+  imgEl.alt = "";
+  descriptionEl.className = "product---description";
+  descriptionEl.textContent = "";
 
-//   containerEl.append(titleEl, imgEl, descriptionEl);
+  containerEl.append(titleEl, imgEl, descriptionEl);
 
-//   return wrapperEl;
-// };
+  return wrapperEl;
+};
 
-// const ROOT__EL = document.querySelector(".ROOT");
+const ROOT__EL = document.querySelector(".ROOT");
 
-// ROOT__EL.append(wrapperEl);
+ROOT__EL.append(wrapperEl);
