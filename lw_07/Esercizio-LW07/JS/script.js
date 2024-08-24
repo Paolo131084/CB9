@@ -43,7 +43,7 @@ const genImageListEl = (listName) => {
 };
 
 const BASE_URL = "https://api.unsplash.com";
-const API_TOKEN = "6Mgh4V1AXkpJwo07tM8FMigH4bNIf3csIjFK_QSrJqI";
+const API_TOKEN = "6n3m-Iobhxqru8HL5nzkrmJlpPAAZjM64JUreRh6KMQ";
 const SEARCH_QUERY = "cat";
 const PER_PAGE = 20;
 const rootEl = document.querySelector(".root");
